@@ -1,0 +1,14 @@
+POST http://localhost:8080/park
+Content-Type: application/json
+{
+    "licensePlate": "ABC123",
+    "type": "car"
+}
+
+POST http://localhost:8080/remove
+Content-Type: application/json
+{
+    "licensePlate": "ABC123"
+}
+
+GET http://localhost:8080/status
